@@ -7,15 +7,15 @@ Finally, Snowflake will automate grabbing data and loading it into the target sc
 
 ## Requirements
 <ol>
-- AWS Account
-- Amazon S3 buckets: landing zone, intermediate zone and transformed zone
-- AWS Lambda
-- Amazon SNS
-- AWS IAM (for permissions)
-- GitHub (for version control)
-- Python, pandas library, Snowpark, SQL Alchemy
-- Email subscription for SNS notifications
-<ol>
+<li>AWS Account</li>
+<li>AAmazon S3 buckets: landing zone, intermediate zone and transformed zone</li>
+<li>AAWS Lambda</li>
+<li>AAmazon SNS</li>
+<li>AAWS IAM (for permissions)</li>
+<li>AGitHub (for version control)</li>
+<li>APython, pandas library, Snowpark, SQL Alchemy</li>
+<li>AEmail subscription for SNS notifications</li>
+</ol>
 
 ## Steps
 
