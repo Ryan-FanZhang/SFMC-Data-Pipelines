@@ -6,7 +6,7 @@ This project automates the processing of daily salesforce marketing data from SF
 Finally, Snowflake will automate grabbing data and loading it into the target schema.
 
 ## Requirements
-</list>
+<ol>
 - AWS Account
 - Amazon S3 buckets: landing zone, intermediate zone and transformed zone
 - AWS Lambda
@@ -15,7 +15,7 @@ Finally, Snowflake will automate grabbing data and loading it into the target sc
 - GitHub (for version control)
 - Python, pandas library, Snowpark, SQL Alchemy
 - Email subscription for SNS notifications
-<list/>
+<ol>
 
 ## Steps
 
