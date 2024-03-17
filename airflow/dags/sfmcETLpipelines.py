@@ -41,7 +41,7 @@ def downloadFlles():
     try:
         files = os.listdir(gLocalFP)
 
-        files_list = [file for file in files if fnmatch.fnmatch(file, 'dv_sent*.csv')]
+        files_list = [file for file in files if fnmatch.fnmatch(file, 'dv_<sent>*.csv')]
 
         files_list = sorted(files_list, reverse=True)
 
